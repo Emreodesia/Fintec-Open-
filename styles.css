@@ -64,3 +64,67 @@ body.dark-theme {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
 } 
+
+
+
+
+
+
+
+/* Haberler */
+
+.news-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.news-section h2 {
+    margin-bottom: 15px;
+}
+
+.news-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news-section li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.news-section li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.news-section li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Loding */
+
+#loading {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+#app {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.visible {
+    opacity: 1;
+}
